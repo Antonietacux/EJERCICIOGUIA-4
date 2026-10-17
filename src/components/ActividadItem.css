@@ -1,0 +1,92 @@
+.actividad-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.actividad-card.completada {
+  background-color: #f0fdf4;
+  border-color: #bbf7d0;
+  opacity: 0.85;
+}
+
+.actividad-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.actividad-tiempo {
+  font-size: 0.85rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.estado-badge {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.badge-pendiente {
+  background-color: #fef3c7;
+  color: #d97706;
+}
+
+.badge-completada {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.actividad-titulo {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  color: #0f172a;
+}
+
+.actividad-card.completada .actividad-titulo {
+  text-decoration: line-through;
+  color: #475569;
+}
+
+.actividad-descripcion {
+  margin: 0 0 1rem 0;
+  font-size: 0.92rem;
+  color: #334155;
+  line-height: 1.5;
+}
+
+.btn-toggle {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-pendiente {
+  background-color: #4f46e5;
+  color: #ffffff;
+}
+
+.btn-pendiente:hover {
+  background-color: #4338ca;
+}
+
+.btn-completada {
+  background-color: #94a3b8;
+  color: #ffffff;
+}
+
+.btn-completada:hover {
+  background-color: #64748b;
+}
