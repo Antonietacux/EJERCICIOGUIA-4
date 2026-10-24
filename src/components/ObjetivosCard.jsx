@@ -10,6 +10,7 @@ function ObjetivosCard({ competencia, indicadorLogro }) {
     );
 }
 
+
 export default ObjetivosCard;
 
 
