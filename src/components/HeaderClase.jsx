@@ -12,4 +12,5 @@ function HeaderClase({ tituloTema, nombreDocente, horario }) {
     );
 }
 
+
 export default HeaderClase;
